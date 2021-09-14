@@ -1,0 +1,15 @@
+.playButton {
+  border: none;
+  background-color: var(--mainColor);
+  padding: 1rem 2rem;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 6px;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.playButton i {
+  margin-right: 0.6rem;
+}

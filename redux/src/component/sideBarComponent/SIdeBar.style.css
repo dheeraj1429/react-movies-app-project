@@ -1,0 +1,16 @@
+.sideBarIcons {
+  position: absolute;
+  top: 25%;
+  right: 40px;
+}
+
+.sideBarIcons {
+  display: grid;
+  align-items: center;
+}
+.sideBarIcons i {
+  margin: 1.5rem 0;
+  color: var(--mainColor);
+  font-size: 1.2rem;
+  cursor: pointer;
+}

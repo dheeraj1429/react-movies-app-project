@@ -1,0 +1,29 @@
+prop drilling -> 
+
+Prop drilling is basically a situation when the same data is being sent at almost every level due to requirements in the final level. Here is a diagram to demonstrate it better. Data needed to be sent from Parent to ChildC. In this article different ways to do that are discussed.
+
+
+context api ->
+
+In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme) that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.
+
+Redux -> 
+
+React Redux is the official React UI bindings layer for Redux. It lets your React components read data from a Redux store, and dispatch actions to the store to update state.
+
+api -> 
+
+https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1
+
+background-img-url -> 
+
+https://images5.alphacoders.com/689/689398.jpg
+
+const IMGPATH = "https://image.tmdb.org/t/p/w1280";
+
+api_key: 2b323be1208667d30fab64b8e850cf00;
+apiRequest: https://api.themoviedb.org/3/movie/550?api_key=2b323be1208667d30fab64b8e850cf00;
+
+api_base: /discover/movie?sort_by=popularity.desc;
+
+poster_urrl: https://image.tmdb.org/t/p/w1280 + backdrop_path;
